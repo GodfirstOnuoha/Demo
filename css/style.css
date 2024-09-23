@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+#header img {
+    width: 600px;
+}
+
+#nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 24px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    list-style: none;
+    float: left;
+    padding-right: 100px;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+#first .one {
+    padding: 30px;
+}
+
+#first .one img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+#first .two {
+    padding: 70px;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+#first .two p {
+    font-size: 15rem;
+}
+
+#second {
+    padding: 100px;
+    background-color: darkorange;
+    text-align: center;
+}
+
+#second p {
+    font-size: 5rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#second button {
+    width: 200px;
+    height: 70px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid darkorange;
+}
+
+#second button:hover {
+    background-color: darkorange;
+    border: 1px solid white;
+    color: white;
+}
+
+#third {
+    padding: 24px;
+    display: flex;
+}
+
+#third .map {
+    padding: 24px;
+}
+
+#third .form {
+    padding: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid darkorange;
+}
+
+form button:hover {
+    color: white;
+    background-color: darkorange;
+    border: 1px solid darkorange;
+}
+
+footer {
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
